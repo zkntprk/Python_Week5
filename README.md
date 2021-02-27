@@ -10,10 +10,14 @@ An __init__ method to assign initial values of society_name, flat, house_no, no_
 input_data() To read information from members
 allocate_flat() To allocate flat according to income using the below table.
 show_data() to display the details of the entire class.
-|Income	| Flat|
-|>=25000 |	A Type |
+|Income	  | Flat|
+
+|>=25000  |	A Type |
+
 |>=20000 and <25000 |	B Type |
+
 |>=15000 and <20000 |	C Type |
+
 |<15000	| D Type|
 
 ## Question 2:
