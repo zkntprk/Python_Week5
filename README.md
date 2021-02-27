@@ -1,6 +1,6 @@
 # PythonModule-Week5
 ## Question 1:
-Create the class Society with following information:
+Create the class `Society` with following information:
 
 society_name, house_no, no_of_members, flat, income
 
