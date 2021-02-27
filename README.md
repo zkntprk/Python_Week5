@@ -11,7 +11,7 @@ input_data() To read information from members
 allocate_flat() To allocate flat according to income using the below table.
 show_data() to display the details of the entire class.
 |Income	  | Flat|
-
+| -------- | --------|
 |>=25000  |	A Type |
 
 |>=20000 and <25000 |	B Type |
