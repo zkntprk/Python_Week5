@@ -13,11 +13,8 @@ show_data() to display the details of the entire class.
 |Income	  | Flat|
 | -------- | --------|
 |>=25000  |	A Type |
-
 |>=20000 and <25000 |	B Type |
-
 |>=15000 and <20000 |	C Type |
-
 |<15000	| D Type|
 
 ## Question 2:
