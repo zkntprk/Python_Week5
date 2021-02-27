@@ -47,6 +47,7 @@ Methods :
 
 - A constructor to intialize all the data members with valid default values.
 - A method `set_remarks()` that assigns Margin as `(product_sale_price - product_purchase_price)` and sets Remarks as mentioned below :
+
 |Margin	  | Remarks|
 | -------- | --------|
 |<0 (negative) |	Loss
