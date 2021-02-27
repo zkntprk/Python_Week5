@@ -24,32 +24,32 @@ item_code(Item Code), item(item name), price(Price of each item), qty(quantity i
 
 Methods :
 
-A member method calculate_discount() to calculate discount as per the following rules:
-If qty <= 10 —> discount is 0
-If qty (11 to 20 inclusive) —> discount is 15
-If qty >= 20 —> discount is 20
-A constructor init method to assign the initial values for item_code to 0 and price, qty, net_price and discount to null
-A function called buy() to allow user to enter values for item_code, item, price, qty. Then call function calculate_discount() to calculate the discount and net_price(price * qty - discount).
-A function show_all() or similar name to allow user to view the content of all the data members.
+- A member method calculate_discount() to calculate discount as per the following rules:
+- If qty <= 10 —> discount is 0
+- If qty (11 to 20 inclusive) —> discount is 15
+- If qty >= 20 —> discount is 20
+- A constructor init method to assign the initial values for item_code to 0 and price, qty, net_price and discount to null
+- A function called buy() to allow user to enter values for item_code, item, price, qty. Then call function calculate_discount() to calculate the discount and net_price(price * qty - discount).
+- A function show_all() or similar name to allow user to view the content of all the data members.
 
 ## Question 3:
 Define a class named Product with the following specifications:
 
 Data members:
-product_id – A string to store product.
-product_name - A string to store the name of the product.
-product_purchase_price – A decimal to store the cost price of the product.
-product_sale_price – A decimal to store Sale Price Margin - A decimal to be calculated as (product_sale_price - product_purchase_price)
-Remarks - To store "Profit" if Margin is positive else "Loss" if Margin is negative.
+- product_id – A string to store product.
+- product_name - A string to store the name of the product.
+- product_purchase_price – A decimal to store the cost price of the product.
+- product_sale_price – A decimal to store Sale Price Margin - A decimal to be calculated as (product_sale_price - product_purchase_price)
+- Remarks - To store "Profit" if Margin is positive else "Loss" if Margin is negative.
 
 Methods :
 
-A constructor to intialize all the data members with valid default values.
-A method set_remarks() that assigns Margin as (product_sale_price - product_purchase_price) and sets Remarks as mentioned below :
+- A constructor to intialize all the data members with valid default values.
+- A method set_remarks() that assigns Margin as (product_sale_price - product_purchase_price) and sets Remarks as mentioned below :
 image
 
-A method set_details() to accept values for product_id. product_name, product_purchase_price, product_sale_price and invokes SetRemarks() method.
-A method get_details() that displays all the data members.
+- A method set_details() to accept values for product_id. product_name, product_purchase_price, product_sale_price and invokes SetRemarks() method.
+- A method get_details() that displays all the data members.
 
 ## Question 4:
 Write a Customer class and Items class. Let user enter customer information and add stuff to his/her shopping card.
@@ -59,17 +59,17 @@ Method : __init__(), __str__(), calculate_discount(), shopping_cart(), get_total
 
 calculate_discount():
 
-total_price = price * qty
-discount —> 25% if total_price >= 4000
-discount —> 15% if total_price >= 2000
-discount —> 10% if total_price < 2000
-price_tobe_paid = total_price – discount
-shopping_cart():
+- total_price = price * qty
+- discount —> 25% if total_price >= 4000
+- discount —> 15% if total_price >= 2000
+- discount —> 10% if total_price < 2000
+- price_tobe_paid = total_price – discount
+- shopping_cart():
 
 Let user add items in the shopping basket. Be creative with the items, set their prices as well.
 __str__():
 
-Print items added and total price nicely.
+- Print items added and total price nicely.
 Class Customer :
 Methods: __init__(), get_cust_info() this is optional, __str__()
 
