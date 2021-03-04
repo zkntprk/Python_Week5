@@ -53,7 +53,7 @@ class Items:
 
 
 class multi(Customer,Items):
-    def __init__(self,item_name=None, price=0.0, qty=0 ,should_pay=0 ,pieces=0, customer_dis=0, customer_total_price=0):
+    def __init__(self,should_pay=0 ,pieces=0, customer_dis=0, customer_total_price=0):
         self.should_pay=should_pay
         self.customer_dis=customer_dis
         self.customer_total_price=customer_total_price
